@@ -8,7 +8,7 @@ const Banner = () => {
       <div className="flex flex-col justify-center md:p-6 mx-auto sm:py-12 lg:py-12 lg:flex-row lg:justify-items-center md:gap-7">
         <div className="flex-auto flex flex-col justify-center text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
           <h1 className="text-5xl font-bold leading-none sm:text-6xl playfair">
-            Books to freshen up your bookshelf
+          Transform Your Shelf with Fresh Titles
           </h1>
           <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start mt-9">
             <NavLink

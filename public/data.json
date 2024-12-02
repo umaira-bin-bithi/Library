@@ -1,20 +1,71 @@
 [
     {
         "bookId": 1,
-        "bookName": "Artificial Intelligence: A Modern Approach",
-        "author": "Thomas H. Cormen",
-        "image": "https://ds.rokomari.store/rokomari110/ProductNew20190903/130X186/00ea58560_112222.jpg",
-        "review": "An essential book for mastering algorithms.",
-        "banglaReview": "এলগরিদম শেখার জন্য একটি গুরুত্বপূর্ণ বই।",
-        "totalPages": 292,
-        "rating": 4.7,
-        "category": "Algorithms",
-        "tags": ["Algorithms", "Education"],
-        "publisher": "MIT Press",
-        "yearOfPublishing": 2009
-    },
+        "bookName": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "image": "https://i.ibb.co/Qr7YYRV/kindpng-2592315-1.png",
+        "review": "A classic portrayal of the American Dream, filled with vivid characters and elegant prose.",
+        "totalPages": 218,
+        "rating": 4.5,
+        "category": "Fiction",
+        "tags": ["Classic", "Romance", "Tragedy"],
+        "publisher": "Scribner",
+        "yearOfPublishing": 1925
+      },
     {
         "bookId": 2,
+        "bookName": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "image": "https://i.ibb.co/NxV2fRc/kindpng-5624060-1.png",
+        "review": "A powerful story of racial injustice and moral growth, told through the eyes of a young girl.",
+        "totalPages": 324,
+        "rating": 4.7,
+        "category": "Fiction",
+        "tags": ["Classic", "Social Justice"],
+        "publisher": "J. B. Lippincott & Co.",
+        "yearOfPublishing": 1960
+      },
+      {
+        "bookId": 3,
+        "bookName": "1984",
+        "author": "George Orwell",
+        "image": "https://i.ibb.co/GsBpHrK/kindpng-1064993-1.png",
+        "review": "A chilling dystopian novel depicting a totalitarian regime and the struggle for individual freedom.",
+        "totalPages": 328,
+        "rating": 4.6,
+        "category": "Fiction",
+        "tags": ["Dystopian", "Political", "Social Commentary"],
+        "publisher": "Secker & Warburg",
+        "yearOfPublishing": 1949
+      },
+      {
+        "bookId": 4,
+        "bookName": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "image": "https://i.ibb.co/y6VRpJV/kindpng-81724-1.png",
+        "review": "A coming-of-age novel following a teenager's journey through adolescence and alienation.",
+        "totalPages": 277,
+        "rating": 4.4,
+        "category": "Fiction",
+        "tags": ["Coming-of-Age", "Alienation"],
+        "publisher": "Little, Brown and Company",
+        "yearOfPublishing": 1951
+      },
+      {
+        "bookId": 5,
+        "bookName": "Harry Potter and the Philosopher's Stone",
+        "author": "J.K. Rowling",
+        "image": "https://i.ibb.co/PrqWYQb/kindpng-4022054-1.png",
+        "review": "A captivating tale of magic, friendship, and adventure that enchants readers of all ages.",
+        "totalPages": 320,
+        "rating": 4.8,
+        "category": "Fantasy",
+        "tags": ["Magic", "Adventure", "Friendship"],
+        "publisher": "Bloomsbury",
+        "yearOfPublishing": 1997
+      },
+    {
+        "bookId": 6,
         "bookName": "Artificial Intelligence-Based Brain-Computer Interface ",
         "author": "Varun Bajaj, G.R.Sinha",
         "image": "public/algo2.png",
@@ -28,7 +79,7 @@
         "yearOfPublishing": 2013
     },
     {
-        "bookId": 3,
+        "bookId": 7,
         "bookName": "Partitional Clustering Algorithms ",
         "author": "M.Emre Celebi Editor",
         "image": "public/algo3.png",
@@ -42,7 +93,7 @@
         "yearOfPublishing": 2013
     },
     {
-        "bookId": 4,
+        "bookId": 8,
         "bookName": "Introduction to Algorithms",
         "author": "Rex Porbasas Flejoles",
         "image": "public/algo4.png",
@@ -56,7 +107,7 @@
         "yearOfPublishing": 2015
     },
     {
-        "bookId": 5,
+        "bookId": 9,
         "bookName": "Intoduction to Algorithms,Data Structure and Formal Languages",
         "author": "Michael J.Dinneen,Mark C.Willson",
         "image": "public/algo5.png",
@@ -70,7 +121,7 @@
         "yearOfPublishing": 2008
     },
     {
-        "bookId": 6,
+        "bookId": 10,
         "bookName": "Data Structures and Algorithms in C++",
         "author": "Michael T.Goodrich,Reberto Tamassia",
         "image": "public/algo6.png",
@@ -84,7 +135,7 @@
         "yearOfPublishing": 2008
     },
     {
-        "bookId": 7,
+        "bookId": 11,
         "bookName": "Data Structures and Algorithms in Java",
         "author": "Michael T.Goodrich,Reberto Tamassia",
         "image": "public/algo7.png",
@@ -98,7 +149,7 @@
         "yearOfPublishing": 2020
     },
     {
-        "bookId": 8,
+        "bookId": 12,
         "bookName": "Javascript Data Structures and Algorithms",
         "author": "Sammie Bae",
         "image": "public/algo8.png",
@@ -112,7 +163,7 @@
         "yearOfPublishing": 1999
     },
     {
-        "bookId": 9,
+        "bookId": 13,
         "bookName": "Nature-Inspired Optimization Algorithms with Java",
         "author": "James F. Kurose, Keith W. Ross",
         "image": "public/algo9.png",
@@ -126,7 +177,7 @@
         "yearOfPublishing": 2016
     },
     {
-        "bookId": 10,
+        "bookId": 14,
         "bookName": "Pro Machine Learning Algorithms",
         "author": "Abraham Silberschatz, Henry F. Korth, S. Sudarshan",
         "image": "public/algo10.png",
@@ -138,5 +189,32 @@
         "tags": ["Databases", "Computer Science"],
         "publisher": "McGraw-Hill",
         "yearOfPublishing": 2010
-    }
+    },
+    {
+        "bookId": 15,
+        "bookName": "Artificial Intelligence: A Modern Approach",
+        "author": "Thomas H. Cormen",
+        "image": "public/algo1.png",
+        "review": "An essential book for mastering algorithms.",
+        "banglaReview": "এলগরিদম শেখার জন্য একটি গুরুত্বপূর্ণ বই।",
+        "totalPages": 292,
+        "rating": 4.7,
+        "category": "Algorithms",
+        "tags": ["Algorithms", "Education"],
+        "publisher": "MIT Press",
+        "yearOfPublishing": 2009
+    },
+    {
+        "bookId": 16,
+        "bookName": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "image": "https://i.ibb.co/jTMg0yt/kindpng-7318921-1.png",
+        "review": "A hilarious and absurd journey through space filled with wit, satire, and memorable characters.",
+        "totalPages": 224,
+        "rating": 4.5,
+        "category": "Science Fiction",
+        "tags": ["Humor", "Adventure", "Satire"],
+        "publisher": "Pan Books",
+        "yearOfPublishing": 1979
+      }
 ]
