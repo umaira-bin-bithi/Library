@@ -1,7 +1,7 @@
 [
     {
         "bookId": 1,
-        "bookName": "Introduction to Algorithms",
+        "bookName": "Artificial Intelligence: A Modern Approach",
         "author": "Thomas H. Cormen",
         "image": "public/algo1.png",
         "review": "An essential book for mastering algorithms.",
@@ -15,8 +15,8 @@
     },
     {
         "bookId": 2,
-        "bookName": "Data Structures and Algorithm Analysis in C",
-        "author": "Mark Allen Weiss",
+        "bookName": "Artificial Intelligence-Based Brain-Computer Interface ",
+        "author": "Varun Bajaj, G.R.Sinha",
         "image": "public/algo2.png",
         "review": "Detailed explanation of data structures and their implementations.",
         "banglaReview": "ডেটা স্ট্রাকচার এবং তাদের বাস্তবায়ন শেখার জন্য একটি অসাধারণ বই।",
@@ -29,8 +29,8 @@
     },
     {
         "bookId": 3,
-        "bookName": "Algorithms Unlocked",
-        "author": "Thomas H. Cormen",
+        "bookName": "Partitional Clustering Algorithms ",
+        "author": "M.Emre Celebi Editor",
         "image": "public/algo3.png",
         "review": "A beginner-friendly guide to algorithms.",
         "banglaReview": "এলগরিদম শেখার জন্য সহজবোধ্য একটি গাইড।",
@@ -43,8 +43,8 @@
     },
     {
         "bookId": 4,
-        "bookName": "Cracking the Coding Interview",
-        "author": "Gayle Laakmann McDowell",
+        "bookName": "Introduction to Algorithms",
+        "author": "Rex Porbasas Flejoles",
         "image": "public/algo4.png",
         "review": "Perfect for preparing for coding interviews.",
         "banglaReview": "কোডিং ইন্টারভিউ এর প্রস্তুতির জন্য অসাধারণ।",
@@ -57,8 +57,8 @@
     },
     {
         "bookId": 5,
-        "bookName": "The Algorithm Design Manual",
-        "author": "Steven S. Skiena",
+        "bookName": "Intoduction to Algorithms,Data Structure and Formal Languages",
+        "author": "Michael J.Dinneen,Mark C.Willson",
         "image": "public/algo5.png",
         "review": "Focuses on practical algorithm design.",
         "banglaReview": "প্র্যাকটিকাল এলগরিদম ডিজাইনের জন্য প্রয়োজনীয়।",
@@ -71,8 +71,8 @@
     },
     {
         "bookId": 6,
-        "bookName": "Clean Code",
-        "author": "Robert C. Martin",
+        "bookName": "Data Structures and Algorithms in C++",
+        "author": "Michael T.Goodrich,Reberto Tamassia",
         "image": "public/algo6.png",
         "review": "Teaches best practices for writing clean code.",
         "banglaReview": "ক্লিন কোড লেখার জন্য একটি নির্দেশিকা।",
@@ -85,8 +85,8 @@
     },
     {
         "bookId": 7,
-        "bookName": "Artificial Intelligence: A Modern Approach",
-        "author": "Stuart Russell, Peter Norvig",
+        "bookName": "Data Structures and Algorithms in Java",
+        "author": "Michael T.Goodrich,Reberto Tamassia",
         "image": "public/algo7.png",
         "review": "Comprehensive guide on Artificial Intelligence.",
         "banglaReview": "আর্টিফিশিয়াল ইন্টেলিজেন্স নিয়ে একটি বিস্তৃত বই।",
@@ -99,8 +99,8 @@
     },
     {
         "bookId": 8,
-        "bookName": "Programming Pearls",
-        "author": "Jon Bentley",
+        "bookName": "Javascript Data Structures and Algorithms",
+        "author": "Sammie Bae",
         "image": "public/algo8.png",
         "review": "Classic book on solving real-world problems with programming.",
         "banglaReview": "প্রোগ্রামিং সমস্যার সমাধানের জন্য একটি ক্লাসিক বই।",
@@ -113,7 +113,7 @@
     },
     {
         "bookId": 9,
-        "bookName": "Computer Networking: A Top-Down Approach",
+        "bookName": "Nature-Inspired Optimization Algorithms with Java",
         "author": "James F. Kurose, Keith W. Ross",
         "image": "public/algo9.png",
         "review": "The go-to book for understanding computer networks.",
@@ -127,7 +127,7 @@
     },
     {
         "bookId": 10,
-        "bookName": "Database System Concepts",
+        "bookName": "Pro Machine Learning Algorithms",
         "author": "Abraham Silberschatz, Henry F. Korth, S. Sudarshan",
         "image": "public/algo10.png",
         "review": "Comprehensive guide to database systems.",
