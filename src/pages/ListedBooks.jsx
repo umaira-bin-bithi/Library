@@ -87,7 +87,7 @@ const ListedBooks = () => {
         <TabList>
           <Tab>Read Books</Tab>
           <Tab>Borrow Books</Tab>
-          <Tab>Retun book</Tab>
+          <Tab>Issue Books</Tab>
         </TabList>
         <TabPanel>
           <div className="flex flex-col gap-3">
@@ -108,11 +108,22 @@ const ListedBooks = () => {
             ))}
           </div>
         </TabPanel>
-        <TabPanel>
+        {/* <TabPanel>
           <div className="flex flex-col gap-3">
-            {wishlist.length<1 ? <ErrorPage mgs="You have not selected any return Book!"/> : wishlist.map((book) => (
+            {wishlist.length<1 ? <ErrorPage mgs="You have not selected any Issue Book!"/> : wishlist.map((book) => (
               <ListedBook key={book.bookId} book={book} />
             ))}
+          </div>
+        </TabPanel> */}
+        <TabPanel>
+          <div className="flex flex-col gap-3">
+            {readList.length < 1 ? (
+              <ErrorPage mgs="You have not selected any Issue Book!"/>
+            ) : (
+              readList.map((book) => (
+                <ListedBook key={book.bookId} book={book} />
+              ))
+            )}
           </div>
         </TabPanel>
       </Tabs>

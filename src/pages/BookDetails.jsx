@@ -43,7 +43,7 @@ const BookDetails = () => {
 
   const handleReturnBook = (id) => {
     // Simulate returning the book (you can integrate API logic here)
-    toast.success("Book successfully returned!");
+    toast.success("Book successfully Issue!");
   };
 
   if (loaderSpinner) {
@@ -102,21 +102,21 @@ const BookDetails = () => {
               className="relative rounded px-5 py-2.5 overflow-hidden group text-black hover:bg-gradient-to-r hover:from-green-500 hover:to-green-400 border-2 hover:ring-2 hover:ring-offset-2 hover:ring-green-400 transition-all ease-out duration-300 cursor-pointer text-lg font-semibold"
             >
               <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
-              <span className="relative">Borrow Book</span>
+              <span className="relative">Read Book</span>
             </a>
             <a
               onClick={() => handleWishlist(bookId)}
               className="relative rounded px-5 py-2.5 overflow-hidden group bg-blue-300 hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-400 text-black hover:text-white hover:ring-2 hover:ring-offset-2 hover:ring-blue-400 transition-all ease-out duration-300 cursor-pointer text-lg font-semibold"
             >
               <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
-              <span className="relative">Read Book</span>
+              <span className="relative">Borrow Book</span>
             </a>
             <a
               onClick={() => handleReturnBook(bookId)}
               className="relative rounded px-5 py-2.5 overflow-hidden group bg-red-300 hover:bg-gradient-to-r hover:from-red-500 hover:to-red-400 text-black hover:text-white hover:ring-2 hover:ring-offset-2 hover:ring-red-400 transition-all ease-out duration-300 cursor-pointer text-lg font-semibold"
             >
               <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
-              <span className="relative">Return Book</span>
+              <span className="relative">Issue Book</span>
             </a>
           </div>
         </div>
