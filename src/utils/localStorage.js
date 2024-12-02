@@ -43,10 +43,10 @@ export const setWishlist = (id) => {
   const existsWishlist = wishlistOldData.find((item) => item == id);
   if (!existsRead && !existsWishlist) {
     wishlistOldData.push(id);
-    localStorage.setItem("wishlist", JSON.stringify(wishlistOldData));
-    toast.success("Book added to wishlist");
+    localStorage.setItem("BorrowList", JSON.stringify(wishlistOldData));
+    toast.success("Book added to Borrow Book");
   } else {
-    toast.error("You have already added this book to the wishlist");
+    toast.error("You have already added this book to the Borrow Book");
   }
 };
 
@@ -65,7 +65,7 @@ export const setReturnlist = (id) => {
     returnlistOldData.push(id);
     localStorage.setItem("returnlist", JSON.stringify(returnlistOldData));
     
-    toast.success("Book returned successfully");
+    toast.success("Book Issue successfully");
   } else if (!existsWishlist) {
     toast.error("This book is not in your wishlist");
   } else {
