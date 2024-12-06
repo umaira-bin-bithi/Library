@@ -1,19 +1,45 @@
+
+
+
+
+
+
+// React-Loader-Spinner লাইব্রেরি থেকে RotatingTriangles কম্পোনেন্টটি ইমপোর্ট করা হচ্ছে
 import { RotatingTriangles } from "react-loader-spinner";
 
+// Spinner নামের একটি ফাংশনাল কম্পোনেন্ট তৈরি করা হচ্ছে
 const Spinner = () => {
   return (
+    // এই div ট্যাগটি CSS ক্লাস 'flex', 'justify-center', এবং 'my-20' দিয়ে কাস্টমাইজড।
+    // এটি কম্পোনেন্টটি সেন্টার করার জন্য ব্যবহৃত হচ্ছে এবং কিছু মার্জিন যুক্ত করা হচ্ছে।
     <div className="flex justify-center my-20">
+      {/* 
+        RotatingTriangles কম্পোনেন্ট ব্যবহার করা হচ্ছে।
+        এটি একটি লোডিং স্পিনার প্রদর্শন করবে যা তিনটি ট্রায়াঙ্গেল নিয়ে ঘুরবে। 
+        visible: লোডিং স্পিনারটি দৃশ্যমান থাকবে (true মানে দৃশ্যমান)।
+        height এবং width: স্পিনারের আকার 80px।
+        color: স্পিনারের রঙ '#4fa94d' (একটি হালকা সবুজ রঙ)।
+        ariaLabel: অ্যাক্সেসিবিলিটি উন্নত করার জন্য স্পিনারটি শনাক্ত করার জন্য লেবেল।
+        wrapperStyle: কোনও স্টাইল অ্যাপ্লাই করা হয়নি, তাই এটি খালি রেখেছি।
+        wrapperClass: স্পিনার কম্পোনেন্টের জন্য কোনো অতিরিক্ত CSS ক্লাস ব্যবহার করা হয়নি।
+      */}
       <RotatingTriangles
-        visible={true}
-        height="80"
-        width="80"
-        color="#4fa94d"
-        ariaLabel="rotating-triangles-loading"
-        wrapperStyle={{}}
-        wrapperClass=""
+        visible={true}        // স্পিনার দৃশ্যমান রাখার জন্য
+        height="80"           // স্পিনারের উচ্চতা 80px
+        width="80"            // স্পিনারের প্রস্থ 80px
+        color="#4fa94d"       // স্পিনারের রঙ হালকা সবুজ (#4fa94d)
+        ariaLabel="rotating-triangles-loading" // অ্যাক্সেসিবিলিটি লেবেল
+        wrapperStyle={{}}     // স্পিনারের চারপাশে কোনো স্টাইল নেই
+        wrapperClass=""       // স্পিনারের চারপাশে কোনো CSS ক্লাস নেই
       />
     </div>
   );
 };
 
+// Spinner কম্পোনেন্টটি ডিফল্ট এক্সপোর্ট করা হচ্ছে, যাতে অন্য যেকোনো ফাইল থেকে এটি ইমপোর্ট করা যায়।
 export default Spinner;
+
+
+
+// এই কোডে কোন বিশেষ অ্যালগরিদম ব্যবহার করা হয়নি। এটি মূলত একটি UI (User Interface) কম্পোনেন্ট, যা লোডিং বা স্পিনার হিসেবে একটি ঘুরন্ত ট্রায়াঙ্গেল প্রদর্শন করে।
+//  এটি React এবং react-loader-spinner লাইব্রেরি ব্যবহার করে তৈরি করা হয়েছে।

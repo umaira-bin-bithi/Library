@@ -1,14 +1,47 @@
+
+
+/* ফন্ট গুগল থেকে ইমপোর্ট করা হচ্ছে, যাতে 'Playfair Display' এবং 'Work Sans' ব্যবহার করা যায় */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Tailwind CSS এর বেস স্টাইল যুক্ত করা হচ্ছে */
 @tailwind base;
+
+/* Tailwind CSS এর কম্পোনেন্ট স্টাইল যুক্ত করা হচ্ছে */
 @tailwind components;
+
+/* Tailwind CSS এর ইউটিলিটি ক্লাস স্টাইল যুক্ত করা হচ্ছে */
 @tailwind utilities;
 
+/* সমস্ত এলিমেন্টের জন্য 'Work Sans' ফন্ট সেট করা হচ্ছে */
 *{
     font-family: "Work Sans", sans-serif;
 }
+
+/* 'playfair' ক্লাসের জন্য 'Playfair Display' ফন্ট সেট করা হচ্ছে */
 .playfair{
     font-family: "Playfair Display", serif;
 }
+
+/* কাস্টম স্ক্রোলবার স্টাইলিং */
 .scrollBar::-webkit-scrollbar {
+    /* স্ক্রোলবার আড়াল করা হচ্ছে */
     display: none;
 }
+
+
+
+/* এখানে কিছু কাজের লজিকাল স্টাইলিং আছে:
+
+ফন্ট স্টাইলিং: এখানে দুটি ফন্ট ব্যবহৃত হয়েছে (Playfair Display এবং Work Sans), যা পৃষ্ঠা লোড হওয়ার সময় প্রযোজ্য হবে।
+
+Tailwind CSS ক্লাস: Tailwind CSS-এর সাহায্যে বেস, কম্পোনেন্ট এবং ইউটিলিটির স্টাইল প্রয়োগ করা হয়েছে।
+
+স্ক্রোলবার হাইডিং: ::-webkit-scrollbar ব্যবহার করে স্ক্রোলবারটি আড়াল করা হয়েছে, যাতে স্ক্রোলবারের কোনো দৃশ্যমানতা না থাকে।
+
+এখানে কোনো ডেটা প্রসেসিং, সোর্টিং বা গাণিতিক অ্যালগোরিদম নেই, এটি মূলত UI স্টাইলিংয়ের জন্য ব্যবহৃত কোড। */
+
+
+
+
+
+
